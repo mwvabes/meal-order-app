@@ -203,7 +203,7 @@ const AdminSubHeader = () => {
   }
   else {
     return (
-      <Card className="headerCard" header="1">
+      <Card className="headerCard mainCard" header="1">
         <Card.Body>
           <Row>
             <Col >
