@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap');
+
+$darkgrey: #737373;
+$grey: #A5A5A5;
+$lightgrey: #d3d3d3;
+$primary: #DE5223;
+
+:root {
+  font-size: 16px;
+  font-weight: normal;
+  color: $grey;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+@import "./../../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+    "primary": $primary,
+    "body-color": $grey,
+    "color": $grey,
+    "headings-color": $primary,
+    
+);
+
+.btn-primary {
+  border-radius: 19px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+strong {
+  color: $darkgrey;
+}
+
+.mainCard {
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 6px 3px $lightgrey;
+}
+
+.placeAddress {
+  font-size: .9rem;
+}
+
+.placeTags {
+  font-size: .9rem;
+}
+
+.menuCategory {
+  margin-top: 20px;
+}
+
+.positionName {
+  color: $darkgrey;
+}
+
+.positionDescription {
+  font-style: italic;
+  color: $grey;
+}
+
+.positionName, .positionPrice {
+  margin-bottom: 2px;
+}
+
+.textColorPrimary {
+  color: $primary;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.wrapTop {
+  margin-top: 10px;
+  position: relative;
+}
+
+.wrapTop::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  height: 1px;
+  left: 0;
+  right: 0;
+  background-color: $lightgrey;
+}
+
+.orderSummary {
+  margin-bottom: 40px;
+}
+
+.orderSummary button {
+  margin-left: 10px;
+}
+
+.billValue {
+  font-size: 1.2rem;
+}
+
+.iconImg {
+  height: 20px;
+}
+
+.loginContainer {
+  margin-top: 100px;
+}
+
+.loginContainer button {
+  width: 100%;
+}
+
+.loginContainer input {
+  margin-bottom: 5px;
+}
+
+.loginHeading {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
